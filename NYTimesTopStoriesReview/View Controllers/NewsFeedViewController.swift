@@ -25,8 +25,10 @@ class NewsFeedViewController: UIViewController {
         newsFeedView.collectionView.delegate = self
         
         // register a collection view cell
-        newsFeedView.collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "articleCell")
+        newsFeedView.collectionView.register(NewsCell.self, forCellWithReuseIdentifier: "articleCell")
       }
+//    private func fetchStories(for section: String = ")
+    
     }
 
     extension NewsFeedViewController: UICollectionViewDataSource {

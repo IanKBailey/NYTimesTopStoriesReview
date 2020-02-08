@@ -20,6 +20,7 @@
 		5680C05423ECB77900CD25FB /* TopStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680C05323ECB77900CD25FB /* TopStory.swift */; };
 		5680C05723ECB88C00CD25FB /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5680C05623ECB88C00CD25FB /* ImageKit */; };
 		5680C05A23ECB8CB00CD25FB /* NYTTopStoriesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680C05923ECB8CB00CD25FB /* NYTTopStoriesAPIClient.swift */; };
+		5680C05C23EF6EFD00CD25FB /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680C05B23EF6EFD00CD25FB /* NewsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5680C05023ECB71800CD25FB /* TopStoriesTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTabController.swift; sourceTree = "<group>"; };
 		5680C05323ECB77900CD25FB /* TopStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStory.swift; sourceTree = "<group>"; };
 		5680C05923ECB8CB00CD25FB /* NYTTopStoriesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTTopStoriesAPIClient.swift; sourceTree = "<group>"; };
+		5680C05B23EF6EFD00CD25FB /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				5680C04823ECB60A00CD25FB /* NewsFeedView.swift */,
+				5680C05B23EF6EFD00CD25FB /* NewsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				5680C04D23ECB6BA00CD25FB /* SavedArticleViewController.swift in Sources */,
 				5680C05123ECB71800CD25FB /* TopStoriesTabController.swift in Sources */,
 				5680C00623EC8F2E00CD25FB /* AppDelegate.swift in Sources */,
+				5680C05C23EF6EFD00CD25FB /* NewsCell.swift in Sources */,
 				5680C00823EC8F2E00CD25FB /* SceneDelegate.swift in Sources */,
 				5680C05A23ECB8CB00CD25FB /* NYTTopStoriesAPIClient.swift in Sources */,
 				5680C05423ECB77900CD25FB /* TopStory.swift in Sources */,
